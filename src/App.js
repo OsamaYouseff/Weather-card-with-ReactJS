@@ -144,7 +144,7 @@ export default function App() {
         {/* CHANGE LANGUAGE BTN */}
         {/* == CHANGE LANGUAGE BTN == */}
         <div style={{ width: "100%", textAlign: "start", display: 'flex', marginTop: '15px' }}>
-          <Button variant="text" onClick={toggleLang} style={{ color: "white", border: "1px solid rgb(255 255 255 /0.15)" }}>{lang === "ar" ? "الانجليزية" : "ARABIC"}</Button>
+          <Button variant="text" onClick={toggleLang} style={{ color: "white", border: "1px solid rgb(255 255 255 /0.15)" }}>{lang === "ar-ly" ? "الانجليزية" : "ARABIC"}</Button>
 
         </div>
       </Container >
