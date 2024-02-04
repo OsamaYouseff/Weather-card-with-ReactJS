@@ -1,0 +1,63 @@
+/* CUSTOM FONTS */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/public/fonts/Montserrat-Regular.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/public/fonts//Montserrat-Medium.ttf");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/public/fonts/Montserrat-Bold.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/public/fonts/Montserrat-ExtraBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/public/fonts/Montserrat-Black.ttf");
+    font-weight: 900;
+}
+
+/* == CUSTOM FONTS == */
+
+.App {
+    text-align: center;
+}
+
+.city-name {
+    font-size: 70px !important;
+}
+
+@media (max-width: 768px) {
+    .css-ipgzhw-MuiContainer-root {
+        padding: 5px !important;
+    }
+    .weather-card {
+        padding: 0 !important;
+    }
+    .city-date {
+        flex-direction: column-reverse !important;
+        align-items: start !important;
+    }
+    .city-name {
+        font-size: 50px !important;
+    }
+    .MuiSvgIcon-fontSizeMedium {
+        display: none !important;
+    }
+    .date {
+        font-size: 34px !important;
+        display: flex;
+        text-align: start;
+        flex-direction: row;
+        font-weight: 600 !important;
+    }
+}
